@@ -1,0 +1,137 @@
+print("Hello World")
+print("My Name Is Vansh Sharma")
+print("Iam Btech 3Year Student")
+print("From ITM uNIVERSITY Gwalior")
+print("I Have a Deep Intrest IN Data Science")
+
+# For Changin Line (We Use /n)
+
+print("Hello World \n My Name Is Vansh Sharma")
+
+# For Print On Same Line (We Use ,)
+
+print("Hello World , My Name Is Vansh Sharma")
+
+
+# Variables 
+
+Name = "Vansh Sharma"
+Course= "B.Tech"
+Age = 21
+College= "ITM UNIVERSITY GWALIOR"
+CGPA=  7.00
+
+print(Name ,Course,Age,College,CGPA)
+
+# Data Types 
+
+Name = "Vansh Sharma"
+Course= "B.Tech"
+Age = 21
+College= "ITM UNIVERSITY GWALIOR"
+CGPA=  7.00
+CLASS12 = False
+
+print(type(Age))
+print(type(Name))
+print(type(Course))
+print(type(College))
+print(type(CGPA))
+print(type(CLASS12))
+
+# FOR  comment we Use #
+''' For It we Can Also Use this'''
+
+
+
+
+# Sum of three numbers
+a = 10
+b = 20
+c = 30
+print("Answer", a+b+c)
+
+# Sum of two numbers
+d = 10
+e = 20
+print("Answer", d+e)
+
+# Opreaters 
+# Arthmetic Operators
+
+a=10
+b=20
+print("Addition", a+b)
+print("Subtracition", a-b)
+print("Multiplication", a*b)
+print("Division", a/b)
+print("Modulus", a%b)
+print("Power",a**b)
+
+#RElational Operators
+
+a = 10
+b = 5
+print ("GREATER",a<b)
+print("LESSER",a>b)
+print("EQUAL",a==b)  
+print("NOTEQUAL",a!=b)
+print("GREATEREQUAL",a>=b)
+print("LESSEREQUAL",a<=b)
+
+# Assignment Operators
+a = 10
+a += 5
+print(a)
+a -= 5
+print(a)
+
+# Logical Operators
+# Not Operator
+a = 10
+b = 5
+print("and Operator",a>5 and b<10)
+
+# And Operator
+print("and Operator",a>5 and b<3)
+print("and Operator",a>5 and b>10)
+
+# Or Operator
+print("or Operator ",a>b or b<a)
+print("or Operator ",a<b or b<a)
+
+# Type Conversion
+a = 10
+b = 5
+
+print("AutoMatic Type Conversion", a/b)
+# this type conversion is done automatically by python
+
+# Type Casting it done manually by user
+a = 10
+b = 5
+print("Type Casting", float(a))
+print("Type Casting", bool(b))
+
+# Taking Input From User
+name = input ("Enter Your Name: ")
+print(Name)
+
+add=input("Enter First Number")
+b=input("Enter Second Number")
+sum = int(add)+int(b)
+print(sum)
+
+
+
+a=int(input("Enter value of a"))
+b=int(input("Enter value of b"))
+sum = a+b
+print(sum)
+
+# Write a program to print average of 2 number 
+
+a=int(input("Enter First Number"))
+b=int(input("Enter Second Number"))
+average= a+b/2
+print("Average of Two Number is", average)
